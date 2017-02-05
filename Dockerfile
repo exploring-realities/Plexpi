@@ -9,4 +9,4 @@ EXPOSE 32400
 
 WORKDIR /plexmediaserver/
 
-CMD service plexmediaserver start && tail -f /dev/null
+CMD service plexmediaserver restart && tail -f /dev/null
